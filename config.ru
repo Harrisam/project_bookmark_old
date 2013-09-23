@@ -1,3 +1,4 @@
-require './bookmark'
+require 'rubygems'
+require File.join(File.dirname(__FILE__), 'lib/bookmark_manager.rb')
 
-run Sinatra::Application
+run BookmarkManager
